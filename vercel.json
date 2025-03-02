@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "/(.*)\\.glb",
+      "headers": { "Content-Type": "model/gltf-binary" }
+    },
+    {
+      "src": "/(.*)\\.gltf",
+      "headers": { "Content-Type": "model/gltf+json" }
+    }
+  ]
+}

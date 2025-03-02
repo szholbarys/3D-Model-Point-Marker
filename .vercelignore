@@ -1,0 +1,8 @@
+.parcel-cache/
+node_modules/
+.parcel-cache/
+dist/
+*.mp4
+*.zip
+*.glb
+*.obj
