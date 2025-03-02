@@ -1,0 +1,19 @@
+{
+  "name": "3d-model-marker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  },
+  "dependencies": {
+    "three": "^0.174.0"
+  }
+}

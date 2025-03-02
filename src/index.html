@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>3D Model Point Marker</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container"></div>
+    <div id="info">
+      3D Model Point Marker<br />
+      Click on the model to place marker points
+    </div>
+
+    <div id="controls">
+      <button id="load-model-btn">Load 3D Model</button>
+      <input type="file" id="file-input" accept=".glb,.gltf" />
+      <button id="clear-points-btn">Clear All Points</button>
+      <button id="export-points-btn">Export Points</button>
+    </div>
+
+    <div id="point-info">
+      <h3>Marker Points</h3>
+      <div id="points-list"></div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
