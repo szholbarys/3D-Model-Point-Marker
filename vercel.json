@@ -1,4 +1,9 @@
 {
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
   "routes": [
     {
       "src": "/(.*)\\.glb",
@@ -7,6 +12,10 @@
     {
       "src": "/(.*)\\.gltf",
       "headers": { "Content-Type": "model/gltf+json" }
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
