@@ -1,6 +1,7 @@
 {
   "name": "3d-model-marker",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
