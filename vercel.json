@@ -16,6 +16,10 @@
     {
       "src": "/(.*)",
       "dest": "/index.html"
+    },
+    {
+      "src": "/(.*)\\.js",
+      "headers": { "Content-Type": "application/javascript" }
     }
   ]
 }
